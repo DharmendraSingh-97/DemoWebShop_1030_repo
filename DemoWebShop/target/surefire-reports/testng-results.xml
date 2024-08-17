@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="4" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-17T12:36:01 IST" name="Surefire suite" finished-at="2024-08-17T12:36:26 IST" duration-ms="24980">
+    <groups>
+      <group name="system">
+        <method signature="TC_DWS_003_Test.addProduct()[pri:0, instance:shoppingCart.TC_DWS_003_Test@1f0f1111]" name="addProduct" class="shoppingCart.TC_DWS_003_Test"/>
+      </group> <!-- system -->
+      <group name="smoke">
+        <method signature="TC_DWS_005_Test.clickOnBooks()[pri:0, instance:books.TC_DWS_005_Test@6d2a209c]" name="clickOnBooks" class="books.TC_DWS_005_Test"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2024-08-17T12:36:01 IST" name="Surefire test" finished-at="2024-08-17T12:36:26 IST" duration-ms="24980">
+      <class name="books.TC_DWS_005_Test">
+        <test-method is-config="true" signature="reportConfig()[pri:0, instance:books.TC_DWS_005_Test@6d2a209c]" started-at="2024-08-17T12:36:01 IST" name="reportConfig" finished-at="2024-08-17T12:36:01 IST" duration-ms="231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportConfig -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:books.TC_DWS_005_Test@6d2a209c]" started-at="2024-08-17T12:36:02 IST" name="launchBrowser" finished-at="2024-08-17T12:36:06 IST" duration-ms="4738" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:books.TC_DWS_005_Test@6d2a209c]" started-at="2024-08-17T12:36:06 IST" name="login" finished-at="2024-08-17T12:36:08 IST" duration-ms="1517" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="clickOnBooks()[pri:0, instance:books.TC_DWS_005_Test@6d2a209c]" started-at="2024-08-17T12:36:08 IST" name="clickOnBooks" finished-at="2024-08-17T12:36:10 IST" duration-ms="1905" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnBooks -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:books.TC_DWS_005_Test@6d2a209c]" started-at="2024-08-17T12:36:10 IST" name="logout" finished-at="2024-08-17T12:36:10 IST" duration-ms="733" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:books.TC_DWS_005_Test@6d2a209c]" started-at="2024-08-17T12:36:10 IST" name="closeBrowser" finished-at="2024-08-17T12:36:11 IST" duration-ms="259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="reportBackup()[pri:0, instance:books.TC_DWS_005_Test@6d2a209c]" started-at="2024-08-17T12:36:26 IST" name="reportBackup" finished-at="2024-08-17T12:36:27 IST" duration-ms="313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportBackup -->
+      </class> <!-- books.TC_DWS_005_Test -->
+      <class name="shoppingCart.TC_DWS_003_Test">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:shoppingCart.TC_DWS_003_Test@1f0f1111]" started-at="2024-08-17T12:36:11 IST" name="launchBrowser" finished-at="2024-08-17T12:36:14 IST" duration-ms="3600" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:shoppingCart.TC_DWS_003_Test@1f0f1111]" started-at="2024-08-17T12:36:14 IST" name="login" finished-at="2024-08-17T12:36:20 IST" duration-ms="5929" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="addProduct()[pri:0, instance:shoppingCart.TC_DWS_003_Test@1f0f1111]" started-at="2024-08-17T12:36:20 IST" name="addProduct" finished-at="2024-08-17T12:36:25 IST" duration-ms="4700" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProduct -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:shoppingCart.TC_DWS_003_Test@1f0f1111]" started-at="2024-08-17T12:36:25 IST" name="logout" finished-at="2024-08-17T12:36:26 IST" duration-ms="1196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:shoppingCart.TC_DWS_003_Test@1f0f1111]" started-at="2024-08-17T12:36:26 IST" name="closeBrowser" finished-at="2024-08-17T12:36:26 IST" duration-ms="352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- shoppingCart.TC_DWS_003_Test -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
